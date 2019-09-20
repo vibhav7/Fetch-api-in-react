@@ -35,7 +35,7 @@ class PostDetailPage extends React.Component {
         })
             .then((res) => {
                 this.setState({
-                    postDetail: 'Deleted Successfully'
+                    postDetail: res.data
                 })
             })
             .catch(error => {
