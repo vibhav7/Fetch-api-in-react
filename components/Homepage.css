@@ -1,0 +1,30 @@
+.userlist-wrapper{
+    /* display: table; */
+    width: 100%;
+    /* width: 50%; */
+    /* background-color: aqua; */
+}
+.userlist-table{
+    display: table;
+    width: 100%;
+
+}
+.userlist-cell{
+    display: table-cell;
+    width: 33.3%;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: grey;
+}
+.blogpost{
+    user-select: none;
+    cursor: pointer;
+    
+}
+.blogpost:hover{
+    background-color: darkslategray;
+    color: whitesmoke;
+}

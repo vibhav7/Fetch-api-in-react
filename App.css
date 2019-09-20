@@ -1,0 +1,13 @@
+:root{
+    --mainWhite: #f3f3f3;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--mainWhite);
+}
+.nav-home{
+    width: 100%;
+    background-color: #141414;
+    color: #f3f3f3;
+}
